@@ -1,0 +1,5 @@
+#message_input, #server_connect, #message_submit {
+	position: relative;
+	top: 55%;
+	left: 45%;
+}

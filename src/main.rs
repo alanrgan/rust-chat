@@ -13,7 +13,8 @@ use std::collections::HashMap;
 mod client;
 mod server;
 mod frame;
-pub use client::WebSocketClient;
+mod utils;
+use client::WebSocketClient;
 use server::WebSocketServer;
 
 fn main() {
